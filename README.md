@@ -32,7 +32,20 @@ The main challenge is to develop a transformer-based optical character recogniti
 3. Develop a plant classifier for the secondary objective using taxon labels as the ground truth. Preprocess the images to remove text using masking methods. If the secondary objective is successful, use this information as an additional input into the TrOCR model.
 4. Develop a classifier to identify the life cycle stage of a plant by expanding on the previous work of segmenting flowers/fruits in plant images.
 
+## Fall 2023 Project Checklist
 
+1. Increase evaluation dataset to 1000 images
+2. Improve transcription accuracy of the taxon label
+3. Extract and transcribe the following for minimal metadata capture:
+    a. Geography 
+    b. Collection code
+    c. Barcode
+4. For detailed data capture:
+    a. Date Collected
+    b. Collector Name
+    c. Collector Number
+    d. Habitat
+5. Produce clean code and documentation
 
 
 ## Proposed Solution
